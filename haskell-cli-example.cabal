@@ -1,0 +1,33 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 14bd57d568704af708a3977d66e0d3c2b5cc2734ad7476b5b0234529bd779f7d
+
+name:           haskell-cli-example
+version:        0.1.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/haskell-cli-example#readme>
+homepage:       https://github.com/stschiff/haskell-cli-example#readme
+bug-reports:    https://github.com/stschiff/haskell-cli-example/issues
+author:         Stephan Schiffels
+maintainer:     schiffels@shh.mpg.de
+copyright:      2020 Stephan Schiffels
+license:        BSD3
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/stschiff/haskell-cli-example
+
+executable haskell-cli-example-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_haskell_cli_example
+  build-depends:
+      base >=4.7 && <5
+    , optparse-applicative
+  default-language: Haskell2010

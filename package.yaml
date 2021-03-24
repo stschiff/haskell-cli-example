@@ -1,0 +1,20 @@
+name:                haskell-cli-example
+version:             0.1.0
+github:              "stschiff/haskell-cli-example"
+license:             BSD3
+author:              "Stephan Schiffels"
+maintainer:          "schiffels@shh.mpg.de"
+copyright:           "2020 Stephan Schiffels"
+
+extra-source-files:
+- README.md
+
+description:         Please see the README on GitHub at <https://github.com/githubuser/haskell-cli-example#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- optparse-applicative
+
+executables:
+  haskell-cli-example-exe:
+    main:                Main.hs
