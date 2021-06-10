@@ -1,6 +1,6 @@
 # haskell-cli-example
 
-This package contains the source code for my [blog post about command line interface design in Haskell](https://www.stephanschiffels.de/posts/2021-03-23-Haskell-CLI/).
+This package contains the source code for my [blog post about command line interface design in Haskell](https://www.stephanschiffels.de/posts/2021-03-24-Haskell-CLI/).
 
 If you want to compile this example, first install [stack](https://docs.haskellstack.org).
 Then clone or download this repository and run `stack run -- --help` from inside. You should then find the help output for this command line interface
